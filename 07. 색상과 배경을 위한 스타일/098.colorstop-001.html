@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선형그라데이션</title>
+    <style>
+        div {
+            width: 500px;
+            height: 300px;
+        }
+
+        .graid {
+            background: cornflowerblue;
+            background-image: -webkit-linear-gradient(top, cornflowerblue, #fff 30%, #06f);
+            background-image: -moz-linear-gradient(bottom, cornflowerblue, #fff 30%, #06f);
+            background: -o-linear-gradient(bottom, cornflowerblue, #fff 30%, #06f);
+            background: linear-gradient(to bottom, cornflowerblue, #fff 30%, #06f);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="graid"></div>
+
+</body>
+
+</html>
